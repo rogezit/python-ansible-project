@@ -1,4 +1,4 @@
-#This is a project for al the Alta3 servers given in the course.
+# This is a project for al the Alta3 servers given in the course.
 
 It downloads a hello world project on public github.
 
@@ -11,14 +11,14 @@ In this case there was an error with one server so it check the OS and checked i
 
 and finally it clones the repository.
 
-##Notes for Professor Hutch: Hope you still remember me. When we where on class you told me to continue the project I was working on class. So I just add some things more but is basically this and is working fine. If you think there is something missing please tell me.
+## Notes for Professor Hutch: Hope you still remember me. When we where on class you told me to continue the project I was working on class. So I just add some things more but is basically this and is working fine. If you think there is something missing please tell me.
 
 
-##Run the project.
+## Run the project.
 In your root directory run this comands.
-###git clone https://github.com/rogezit/python-ansible-project.git
-###cd python-ansible-project/
-###ansible-playbook -i inventory/hosts playbooks/deploy_python_app.yml
+### git clone https://github.com/rogezit/python-ansible-project.git
+### cd python-ansible-project/
+### ansible-playbook -i inventory/hosts playbooks/deploy_python_app.yml
 
 If is working fine you should get something like this.
 student@bchd:~/python-ansible-project$ ansible-playbook -i inventory/hosts playbooks/deploy_python_app.yml
