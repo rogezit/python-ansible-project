@@ -21,6 +21,8 @@ In your root directory run this comands.
 ### ansible-playbook -i inventory/hosts playbooks/deploy_python_app.yml
 
 If is working fine you should get something like this.
+
+
 student@bchd:~/python-ansible-project$ ansible-playbook -i inventory/hosts playbooks/deploy_python_app.yml
 
 PLAY [python_servers] *************************************************************************************
